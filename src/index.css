@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  transition: .4s;
+}
+:root{
+  --white: #fcfdfd;
+}
+body{
+  background-color: var(--white);
+  color: var(--dark);
+  height: 100vh;
+}
+.fullpage{
+  height: 100vh;
+  width: 100vw;
+}
+.no-border{
+  border: none;
+  outline: none;
+  
+}
+.rounded-edges{
+  border-radius: 100px;
+}
+.no-background{
+  background: transparent;
+}
+.w-increase{
+  width: 30vw;
+}
+.custom-shadow{
+  box-shadow: 10px 10px 20px rgba(65, 64, 64, 0.062),-10px -10px 20px rgba(160, 160, 160, 0.062);
+}
+.student-hero{
+  background:  url('./assets/download.png');
+  height: 60vh;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.blur{
+  background-color: rgba(240, 248, 255, 0.192);
+  backdrop-filter: blur(20px);
+}
+.blur:hover{
+  backdrop-filter: blur(0);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.card{
+  padding: 0;
+}
+.nav-top{
+  position: fixed;
+  right: 5vw;
+  bottom: 5vh;
+}
+.nav-top:hover{
+  transform: scale(1.1,1.1);
+  box-shadow: 10px 10px 20px rgba(117, 90, 205, 0.397);
+}
+.card-image{
+  width: 100%;
+}
+.card:hover{
+  box-shadow: 10px 10px 20px rgba(121, 205, 90, 0.397);
+}
+#navigation li:hover{
+  background-color: rgba(240, 248, 255, 0.214);
+  padding: 0 20px;
+}
+.loginbg{
+  background: url('./assets/download.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.logincontainer{
+  background-color: rgba(255, 255, 255, 0.361);
+  color: var(--white);
+  backdrop-filter: blur(10px);
+}
+.login-input{
+  border: 1px solid rgba(138, 138, 138, 0.606);
+}
+.pointer{
+  cursor: pointer;
+}
+@media (max-width:900px){
+  .w-increase{
+    width: 70vw;
+  }
+}
